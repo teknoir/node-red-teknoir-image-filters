@@ -1,0 +1,55 @@
+[
+  {
+    "id": "e0b20836c36e6c20",
+    "type": "tab",
+    "label": "Flow 1",
+    "disabled": false,
+    "info": "",
+    "env": []
+  },
+  {
+    "id": "7a8b8f12d0424d48",
+    "type": "webcamera",
+    "z": "e0b20836c36e6c20",
+    "name": "",
+    "webcamera": "313742c727e88d99ec081c93b8990e9476f1e231c99cf50ae749ea5cd4f5a780",
+    "topic": "",
+    "x": 170,
+    "y": 100,
+    "wires": [
+      [
+        "15619170647ee743"
+      ]
+    ]
+  },
+  {
+    "id": "f95224fcb8f7bb7b",
+    "type": "image viewer",
+    "z": "e0b20836c36e6c20",
+    "name": "",
+    "width": "320",
+    "data": "payload",
+    "dataType": "msg",
+    "active": true,
+    "x": 710,
+    "y": 100,
+    "wires": [
+      []
+    ]
+  },
+  {
+    "id": "15619170647ee743",
+    "type": "imagefilters",
+    "z": "e0b20836c36e6c20",
+    "name": "",
+    "ssimslider": "97",
+    "luminosityslider": 50,
+    "x": 450,
+    "y": 100,
+    "wires": [
+      [
+        "f95224fcb8f7bb7b"
+      ]
+    ]
+  }
+]

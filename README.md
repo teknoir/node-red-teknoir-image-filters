@@ -1,4 +1,4 @@
-# node-red-teknoir-sustayn-filters
+# node-red-teknoir-image-filters
 A node that calculate:
 
  * Structural Similarity Index (SSIM) between images
