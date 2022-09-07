@@ -1,0 +1,32 @@
+{
+    "name": "node-red-teknoir-image-filters",
+    "version": "0.1.0",
+    "description": "Luminosity & Structural Similarity Index filter Node for Node Red.",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/teknoir/node-red-teknoir-image-filters.git"
+    },
+    "keywords": [
+        "ssim",
+        "node-red",
+        "node",
+        "teknoir"
+    ],
+    "node-red": {
+        "nodes": {
+            "ssim": "src/image_filters.js"
+        }
+    },
+    "author": {
+        "name": "Anders Åslund"
+    },
+    "dependencies": {
+        "is-base64": "1.1.0",
+        "jimp": "0.16.1",
+        "ssim.js": "3.5.0"
+    }
+}
